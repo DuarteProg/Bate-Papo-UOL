@@ -27,32 +27,50 @@ body {
     background: #F3F3F3;
 height: 667px;
 width: 375px;
+
 }
 
-h5 span {
+p span {
     font-weight: 600;
     font-size: 14px;
     line-height: 16px;
     }
 
 .fala1 {
+    width: 375px;
     height: 40px;
-    background: #DCDCDC;
+    background-color: #DCDCDC;
     border-radius: 2px;
     margin-top: 26px;
     display: flex;
     align-items: center;
-    padding: 0 9px;
+    
+   
 }
 
+.fala1 p {
+    width: 100%;
+    background-color: #DCDCDC;
+    padding-left: 9px;
+    
+}
+
+
 .fala2 {
+    width: 375px;
+    height: 40px;
     background: #FFFFFF;
     border-radius: 2px;
     height: 40px;
     display: flex;
     align-items: center;
-    padding: 0 9px;
     margin-top: 4px;
+}
+
+.fala2 p {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-left: 9px;
 }
 
 .fala3 {
@@ -61,8 +79,13 @@ h5 span {
     height: 40px;
     display: flex;
     align-items: center;
-    padding: 0 9px;
     margin-top: 4px;
+}
+
+.fala3 p {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-left: 9px;
 }
 
 .fala4 {
@@ -71,8 +94,13 @@ h5 span {
     height: 63px;
     display: flex;
     align-items: center;
-    padding: 0 9px;
     margin-top: 4px;
+}
+
+.fala4 p {
+    width: 100%;
+    background-color: #FFDEDE;
+    padding-left: 9px;
 }
 
 .fala5 {
@@ -81,8 +109,13 @@ h5 span {
     height: 40px;
     display: flex;
     align-items: center;
-    padding: 0 9px;
     margin-top: 4px;
+}
+
+.fala5 p {
+    width: 100%;
+    background-color: #DCDCDC;
+    padding-left: 9px;
 }
 
 .conversa {
