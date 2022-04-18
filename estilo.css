@@ -13,6 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
+    position: fixed;
     width: 100v;
     height: 80px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
@@ -21,13 +22,14 @@ body {
 
 .logo ion-icon {
     font-size: 35px;
+    padding-left: 246px;
 }
 
 .layout {
     background: #F3F3F3;
 height: 667px;
 width: 375px;
-
+position: relative;
 }
 
 p span {
@@ -36,98 +38,18 @@ p span {
     line-height: 16px;
     }
 
-.fala1 {
-    width: 375px;
-    height: 40px;
-    background-color: #DCDCDC;
-    border-radius: 2px;
-    margin-top: 26px;
-    display: flex;
-    align-items: center;
-    
-   
-}
-
-.fala1 p {
-    width: 100%;
-    background-color: #DCDCDC;
-    padding-left: 9px;
-    
-}
-
-
-.fala2 {
-    width: 375px;
-    height: 40px;
-    background: #FFFFFF;
-    border-radius: 2px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    margin-top: 4px;
-}
-
-.fala2 p {
-    width: 100%;
-    background-color: #FFFFFF;
-    padding-left: 9px;
-}
-
-.fala3 {
-    background: #FFFFFF;
-    border-radius: 2px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    margin-top: 4px;
-}
-
-.fala3 p {
-    width: 100%;
-    background-color: #FFFFFF;
-    padding-left: 9px;
-}
-
-.fala4 {
-    background: #FFDEDE;
-    border-radius: 2px;
-    height: 63px;
-    display: flex;
-    align-items: center;
-    margin-top: 4px;
-}
-
-.fala4 p {
-    width: 100%;
-    background-color: #FFDEDE;
-    padding-left: 9px;
-}
-
-.fala5 {
-    background: #DCDCDC;
-    border-radius: 2px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    margin-top: 4px;
-}
-
-.fala5 p {
-    width: 100%;
-    background-color: #DCDCDC;
-    padding-left: 9px;
-}
-
 .conversa {
     margin-top: 282px;
-
 height: 80px;
+
 background: #FFFFFF;
 box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
 display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 0 17px;
+bottom: 0;
+position: fixed
 }
 
 .conversa input {
@@ -137,8 +59,44 @@ font-weight: 400;
 font-size: 18px;
 line-height: 21px;
 color: #000000;
+border: none;
 }
 
 .conversa ion-icon {
     font-size: 26px;
+    margin-left: 75px;
+    padding-left: 6px;
+}
+
+.espaco-horizontal1 {
+    height: 26px;
+}
+
+.espaco-horizontal2 {
+margin: 220px 0;
+}
+
+.principal {
+    margin-left: 8px;
+}
+
+.status {
+background: #DCDCDC;
+border-radius: 2px;
+margin-bottom: 4px;
+}
+
+.mensagem-publica {
+    background: #FFFFFF;
+border-radius: 2px;
+margin-bottom: 4px;
+}
+
+.mensagem-reservada {
+    background: #FFDEDE;
+border-radius: 2px;
+}
+
+strong {
+  font-weight: 700, Bold
 }
